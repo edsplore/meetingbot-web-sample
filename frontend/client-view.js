@@ -7,13 +7,13 @@ ZoomMtg.i18n.load('en-US')
 ZoomMtg.i18n.reload('en-US')
 
 
-var authEndpoint = "http://localhost:30015/api/zoom/msig";
+var authEndpoint = "http://142.93.212.156:4000";
 var zakEndpoint = "http://localhost:30015/api/zoom/hzak";
 var meetingDetailsEndpoint = "http://localhost:30015/api/zoom/mnum";
 
-var sdkKey = "Enter your SDK Key";
+var sdkKey = "cQBUAxPwRbqeleT4Y5XMmQ";
 
-var url = 'Enter your Meeting Invite URL';
+var url = 'https://us05web.zoom.us/j/9296501882?pwd=bsFxanoXKlTwHwfQHh6aPl9LcfbsrS.1';
 
 
 var {meetingNumber, password} = getMeetingNumberAndPasswordFromUrl(url)
@@ -24,13 +24,14 @@ var passWord = password;
 
 // -----------------------------------
 var role = 0; // 1 for host; 0 for attendee or webinar
-var userName = "{Enter Name}'s Bot";
+// var userName = "{Enter Name}'s Bot";
+var userName = "AI Testing Tool Bot";
 
 var getlocalRecordingToken = "";
 
 var registrantToken = ''
 var zakToken = ''
-var leaveUrl = 'enter your Leave url'
+var leaveUrl = 'http://3.14.249.198:8080'
 
 
 
